@@ -1,0 +1,9 @@
+SOC2 Control CC6.2 - Logical Access Review
+
+Quarterly user access reviews are required for production, finance, and customer support systems.
+
+Evidence must include reviewer identity, exported access list, exception tickets, remediation owner, and sign-off timestamp.
+
+If evidence is missing, Compliance Operations must be notified within five business days.
+
+Retrieval note: exact control IDs such as CC6.2 are often better served by BM25 than semantic search alone.

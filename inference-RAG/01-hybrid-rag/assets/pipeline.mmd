@@ -1,0 +1,5 @@
+graph LR
+    Q[Query] --> B[Build index]
+    B --> R[Retrieve evidence]
+    R --> M[Hybrid RAG: BM25 + dense vector retrieval]
+    M --> E[Evaluate]

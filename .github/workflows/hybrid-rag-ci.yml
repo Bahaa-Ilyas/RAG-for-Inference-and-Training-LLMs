@@ -1,0 +1,23 @@
+name: Hybrid RAG CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate-hybrid-rag:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: inference-RAG/01-hybrid-rag
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate Hybrid RAG cookbook
+        run: python validate_project.py

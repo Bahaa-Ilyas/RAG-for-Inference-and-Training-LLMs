@@ -1,0 +1,2 @@
+# The local cookbook demo uses only the Python standard library.
+# Add production dependencies here only when replacing the toy components.

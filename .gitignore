@@ -1,0 +1,28 @@
+# Ignore everything by default so this repo can publish one method first.
+/*
+
+# Keep repository-level publishing files.
+!/.gitignore
+!/LICENSE
+!/README.md
+!/.github/
+!/.github/**
+
+# Keep only the first inference method for now.
+!/inference-RAG/
+/inference-RAG/*
+!/inference-RAG/01-hybrid-rag/
+!/inference-RAG/01-hybrid-rag/**
+
+# Never publish generated local artifacts.
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.venv/
+**/venv/
+**/data/local_index.json
+**/.env
+**/.DS_Store
+**/Thumbs.db

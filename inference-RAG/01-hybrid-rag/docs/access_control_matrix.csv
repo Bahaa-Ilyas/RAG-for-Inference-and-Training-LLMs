@@ -1,0 +1,5 @@
+role,system,access_level,approval_required,expiry,review_requirement
+EU Support,production database,read-only,Support Director and Data Protection Officer,case duration,review within one business day
+Platform Reliability,production cache,admin,Engineering Director,four hours,incident manager sign-off
+Finance Operations,billing ledger,read-only,Finance Controller,one week,monthly access review
+Security Engineering,identity provider,admin,CISO,four hours,post-access ticket review
