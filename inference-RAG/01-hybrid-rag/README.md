@@ -1,4 +1,4 @@
-# Hybrid RAG (BM25 + dense-style hybrid retrieval)
+# Hybrid RAG From Scratch (BM25 + dense-style hybrid retrieval)
 
 Hybrid retrieval is the production default for many RAG systems: combine sparse lexical search for exact terms with dense semantic search for meaning, then fuse the rankings before generation.
 

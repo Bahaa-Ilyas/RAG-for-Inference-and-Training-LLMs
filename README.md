@@ -1,5 +1,7 @@
 # RAG for Inference and Training
 
+RAG for Inference and Training covers the top 20 RAG methods for inference and training workflows. Built to accelerate learning, it explains different RAG types with runnable examples, diagrams, enterprise data, evaluation, and end-to-end pipeline responsibility.
+
 This repository currently publishes one complete, GitHub-ready cookbook module:
 
 - [`inference-RAG/01-hybrid-rag`](inference-RAG/01-hybrid-rag): Hybrid RAG from scratch with BM25, dense-style retrieval, reciprocal-rank fusion, enterprise documents, evaluation, diagrams, and local examples.
