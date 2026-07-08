@@ -13,6 +13,8 @@
 /inference-RAG/*
 !/inference-RAG/01-hybrid-rag/
 !/inference-RAG/01-hybrid-rag/**
+!/inference-RAG/02-reranked-rag/
+!/inference-RAG/02-reranked-rag/**
 
 # Never publish generated local artifacts.
 **/__pycache__/
