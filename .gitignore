@@ -15,6 +15,8 @@
 !/inference-RAG/01-hybrid-rag/**
 !/inference-RAG/02-reranked-rag/
 !/inference-RAG/02-reranked-rag/**
+!/inference-RAG/03-agentic-rag/
+!/inference-RAG/03-agentic-rag/**
 
 # Never publish generated local artifacts.
 **/__pycache__/
