@@ -1,0 +1,5 @@
+graph LR
+    Q[Query] --> B[Build index]
+    B --> R[Retrieve evidence]
+    R --> M[Contextual compression RAG]
+    M --> E[Evaluate]

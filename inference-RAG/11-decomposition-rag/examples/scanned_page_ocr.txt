@@ -1,0 +1,1 @@
+OCR sample from scanned PDF page 4. Vendor identity and security review status must be checked before invoice approval. OCR confidence: 0.91.

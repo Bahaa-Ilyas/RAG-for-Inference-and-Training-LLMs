@@ -8,15 +8,9 @@
 !/.github/
 !/.github/**
 
-# Keep only the first inference method for now.
+# Publish the full inference-RAG collection.
 !/inference-RAG/
-/inference-RAG/*
-!/inference-RAG/01-hybrid-rag/
-!/inference-RAG/01-hybrid-rag/**
-!/inference-RAG/02-reranked-rag/
-!/inference-RAG/02-reranked-rag/**
-!/inference-RAG/03-agentic-rag/
-!/inference-RAG/03-agentic-rag/**
+!/inference-RAG/**
 
 # Never publish generated local artifacts.
 **/__pycache__/

@@ -1,0 +1,26 @@
+%% Architecture for Layout-aware / multimodal PDF RAG
+%% Direction is left-to-right for later conversion into rendered or 3D visuals.
+flowchart LR
+    A["User query"] --> B["Query understanding"]
+    S1["PDF fixture<br/>examples/sample_policy.pdf"] --> C
+    S2["Scanned OCR fixture<br/>examples/scanned_page_ocr.txt"] --> C
+    S3["Webpage fixture<br/>examples/sample_webpage.html"] --> C
+    S4["Table fixture<br/>examples/sample_table.csv"] --> C
+    S5["Tool/API fixture<br/>examples/tool_response.json"] --> C
+    B --> C["Mixed-source corpus<br/>PDFs, scanned OCR, webpages, tables, tools"]
+    C --> D["Ingestion and normalization<br/>parse, clean, chunk, metadata"]
+    D --> E["Local / production indexes<br/>BM25, vectors, graph, table, version store"]
+    E --> F["Layout + Multimodal Parser<br/>Use OCR, page layout, figures, captions, and tables"]
+    F --> G["Evidence assembly<br/>dedupe, rerank, compress, cite"]
+    G --> H["LLM or deterministic answer step"]
+    H --> I["Verification and evaluation<br/>faithfulness, citations, recall, MRR"]
+    I --> J["Final answer with trace"]
+
+    classDef source fill:#E8F3FF,stroke:#2B6CB0,color:#102A43;
+    classDef process fill:#F7FAFC,stroke:#4A5568,color:#1A202C;
+    classDef method fill:#FFF4D6,stroke:#B7791F,color:#3D2C00;
+    classDef output fill:#E6FFFA,stroke:#2C7A7B,color:#123B3C;
+    class S1,S2,S3,S4,S5,C source;
+    class B,D,E,G,H,I process;
+    class F method;
+    class J output;

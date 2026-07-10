@@ -1,0 +1,5 @@
+graph LR
+    Q[Query] --> B[Build index]
+    B --> R[Retrieve evidence]
+    R --> M[Small-to-big retrieval / parent-child retrieval]
+    M --> E[Evaluate]

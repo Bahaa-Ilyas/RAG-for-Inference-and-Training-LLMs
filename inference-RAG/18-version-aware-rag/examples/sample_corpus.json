@@ -1,0 +1,231 @@
+{
+  "query": "What is true in current version 3.0 docs?",
+  "documents": [
+    {
+      "id": "doc_policy_parent",
+      "title": "Vendor onboarding policy parent section",
+      "text": "The onboarding section defines vendor eligibility, security review, approval, and evidence retention requirements for 2026.",
+      "metadata": {
+        "source_type": "pdf",
+        "page": 12,
+        "section": "Vendor onboarding",
+        "version": "2026.04",
+        "effective_from": "2026-04-01",
+        "is_current": true,
+        "parent_id": "doc_policy_parent",
+        "entities": [
+          "Vendor",
+          "Security Review",
+          "Risk Committee"
+        ],
+        "acl": [
+          "public",
+          "legal"
+        ],
+        "content_hash": "policy-parent-202604",
+        "retrieved_at": "2026-06-01T00:00:00Z"
+      }
+    },
+    {
+      "id": "doc_policy_child_security",
+      "title": "Vendor onboarding security review",
+      "text": "Every new vendor must complete a security review before contract approval. The Risk Committee reviews exceptions and records the decision on page 12.",
+      "metadata": {
+        "source_type": "pdf",
+        "page": 12,
+        "section": "Vendor onboarding",
+        "version": "2026.04",
+        "effective_from": "2026-04-01",
+        "is_current": true,
+        "parent_id": "doc_policy_parent",
+        "entities": [
+          "Vendor",
+          "Security Review",
+          "Risk Committee"
+        ],
+        "acl": [
+          "public",
+          "legal"
+        ],
+        "content_hash": "policy-security-202604",
+        "retrieved_at": "2026-06-01T00:00:00Z",
+        "bbox": [
+          72,
+          144,
+          520,
+          220
+        ],
+        "ocr_confidence": 0.99
+      }
+    },
+    {
+      "id": "doc_api_v3_current",
+      "title": "Current API documentation",
+      "text": "Version 3.0 is the current API version. Rollback is supported through the restore previous version endpoint for 14 days after deployment.",
+      "metadata": {
+        "source_type": "webpage",
+        "section": "API versioning",
+        "version": "3.0",
+        "is_current": true,
+        "canonical_url": "https://docs.example.com/api/versioning",
+        "content_hash": "api-versioning-v3",
+        "retrieved_at": "2026-06-05T09:00:00Z",
+        "entities": [
+          "API",
+          "Rollback"
+        ],
+        "acl": [
+          "public"
+        ]
+      }
+    },
+    {
+      "id": "doc_api_v2_stale",
+      "title": "Legacy API documentation",
+      "text": "Version 2.0 was the current API version in 2025. Rollback required a support ticket and did not expose a restore endpoint.",
+      "metadata": {
+        "source_type": "webpage",
+        "section": "API versioning",
+        "version": "2.0",
+        "is_current": false,
+        "canonical_url": "https://docs.example.com/api/versioning",
+        "content_hash": "api-versioning-v2",
+        "retrieved_at": "2025-05-10T09:00:00Z",
+        "entities": [
+          "API",
+          "Rollback"
+        ],
+        "acl": [
+          "public"
+        ]
+      }
+    },
+    {
+      "id": "doc_warranty_table",
+      "title": "Warranty reserve table",
+      "text": "Warranty reserve table for 2026. Columns: sku, product, warranty_reserve_usd. SKU-B has the highest reserve.",
+      "metadata": {
+        "source_type": "table",
+        "page": 31,
+        "section": "Warranty reserves",
+        "version": "2026.04",
+        "is_current": true,
+        "parent_id": "doc_finance_report",
+        "table_rows": [
+          {
+            "sku": "SKU-A",
+            "product": "Sensor",
+            "warranty_reserve_usd": 1200
+          },
+          {
+            "sku": "SKU-B",
+            "product": "Gateway",
+            "warranty_reserve_usd": 2400
+          },
+          {
+            "sku": "SKU-C",
+            "product": "Controller",
+            "warranty_reserve_usd": 1800
+          }
+        ],
+        "acl": [
+          "public",
+          "finance"
+        ],
+        "content_hash": "warranty-table-202604",
+        "retrieved_at": "2026-06-01T00:00:00Z"
+      }
+    },
+    {
+      "id": "doc_figure_latency",
+      "title": "Figure 3 latency analysis",
+      "text": "Figure 3 shows that median API latency decreased from 180 ms to 95 ms after cache warmup. The caption appears on page 14.",
+      "metadata": {
+        "source_type": "figure",
+        "page": 14,
+        "section": "Performance",
+        "version": "2026.04",
+        "is_current": true,
+        "parent_id": "doc_performance_report",
+        "bbox": [
+          90,
+          180,
+          510,
+          430
+        ],
+        "ocr_confidence": 0.93,
+        "entities": [
+          "Figure 3",
+          "API",
+          "Latency"
+        ],
+        "acl": [
+          "public"
+        ],
+        "content_hash": "figure3-latency-202604",
+        "retrieved_at": "2026-06-01T00:00:00Z"
+      }
+    },
+    {
+      "id": "doc_refund_policy",
+      "title": "Refund policy",
+      "text": "Refunds are allowed when an order was delivered less than 30 days ago and the account is in good standing. The policy requires checking live order status.",
+      "metadata": {
+        "source_type": "pdf",
+        "page": 7,
+        "section": "Refund eligibility",
+        "version": "2026.04",
+        "is_current": true,
+        "parent_id": "doc_refund_policy",
+        "entities": [
+          "Refund",
+          "Order"
+        ],
+        "acl": [
+          "public",
+          "support"
+        ],
+        "content_hash": "refund-policy-202604",
+        "retrieved_at": "2026-06-01T00:00:00Z"
+      }
+    }
+  ],
+  "tools": {
+    "order_status": {
+      "order_id": "A100",
+      "status": "delivered",
+      "days_since_delivery": 12,
+      "account_standing": "good",
+      "amount_usd": 199.0
+    }
+  },
+  "training_examples": [
+    {
+      "query": "What must a new vendor complete before contract approval?",
+      "answer": "A new vendor must complete a security review before contract approval.",
+      "positive_id": "doc_policy_child_security"
+    },
+    {
+      "query": "Which API version is current?",
+      "answer": "Version 3.0 is the current API version.",
+      "positive_id": "doc_api_v3_current"
+    },
+    {
+      "query": "Which SKU has the highest warranty reserve?",
+      "answer": "SKU-B has the highest warranty reserve at 2400 USD.",
+      "positive_id": "doc_warranty_table"
+    }
+  ],
+  "updates": [
+    {
+      "id": "doc_api_v31_new",
+      "title": "API version 3.1 release notes",
+      "text": "Version 3.1 becomes current on 2026-07-01 and changes the rollback window to 7 days.",
+      "metadata": {
+        "source_type": "webpage",
+        "version": "3.1",
+        "is_current": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-label="RAPTOR / hierarchical retrieval paper-informed diagram">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/></marker>
+<linearGradient id="method" x1="0" x2="1"><stop offset="0%" stop-color="#fff7ed"/><stop offset="100%" stop-color="#fef3c7"/></linearGradient>
+</defs>
+<rect width="1280" height="460" fill="#ffffff"/>
+<text x="40" y="52" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">RAPTOR / hierarchical retrieval</text>
+<text x="40" y="84" font-family="Arial, sans-serif" font-size="15" fill="#475569">Paper-informed explanatory diagram based on: RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval</text>
+<text x="40" y="108" font-family="Arial, sans-serif" font-size="13" fill="#64748b">Canonical RAPTOR paper. Local redraw; not a copied paper figure.</text>
+<rect x="40" y="190" width="165" height="72" rx="14" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+<text x="122.5" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">Leaf Chunks</text>
+<line x1="205" y1="226.0" x2="227" y2="226.0" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="235" y="190" width="165" height="72" rx="14" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+<text x="317.5" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">Cluster</text>
+<line x1="400" y1="226.0" x2="422" y2="226.0" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="430" y="190" width="165" height="72" rx="14" fill="url(#method)" stroke="#b45309" stroke-width="2"/>
+<text x="512.5" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">Summarize</text>
+<line x1="595" y1="226.0" x2="617" y2="226.0" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="625" y="190" width="165" height="72" rx="14" fill="url(#method)" stroke="#b45309" stroke-width="2"/>
+<text x="707.5" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">Recursive Tree</text>
+<line x1="790" y1="226.0" x2="812" y2="226.0" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="820" y="190" width="165" height="72" rx="14" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+<text x="902.5" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">Tree Retrieval</text>
+<line x1="985" y1="226.0" x2="1007" y2="226.0" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="1015" y="190" width="165" height="72" rx="14" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+<text x="1097.5" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">Answer</text>
+<text x="40" y="350" font-family="Arial, sans-serif" font-size="14" fill="#475569">How to read it: source data flows left to right through retrieval/control stages, then into answer construction and verification.</text>
+<text x="40" y="376" font-family="Arial, sans-serif" font-size="14" fill="#475569">Use this SVG as a clean visual base for later 3D rendering or slide generation.</text>
+</svg>

@@ -1,0 +1,5 @@
+graph LR
+    Q[Query] --> B[Build index]
+    B --> R[Retrieve evidence]
+    R --> M[Metadata-filtered RAG / auto-retrieval]
+    M --> E[Evaluate]

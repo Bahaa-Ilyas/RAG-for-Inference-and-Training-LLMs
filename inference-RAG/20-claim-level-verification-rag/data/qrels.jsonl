@@ -1,0 +1,4 @@
+{"query_id": "q1", "relevant_ids": ["pdf_policy_text", "scanned_pdf_ocr"]}
+{"query_id": "q2", "relevant_ids": ["web_current_docs"]}
+{"query_id": "q3", "relevant_ids": ["table_warranty_reserve"]}
+{"query_id": "q4", "relevant_ids": ["tool_order_status"]}

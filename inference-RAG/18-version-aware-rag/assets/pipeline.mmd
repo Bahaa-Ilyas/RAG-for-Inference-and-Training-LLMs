@@ -1,0 +1,5 @@
+graph LR
+    Q[Query] --> B[Build index]
+    B --> R[Retrieve evidence]
+    R --> M[Version-aware RAG]
+    M --> E[Evaluate]
